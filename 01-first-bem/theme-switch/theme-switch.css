@@ -1,0 +1,7 @@
+.theme-switch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1px;
+  border: 1px solid yellow;
+}

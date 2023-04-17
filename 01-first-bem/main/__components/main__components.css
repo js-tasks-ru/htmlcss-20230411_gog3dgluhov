@@ -1,0 +1,7 @@
+.main__components {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid blue;
+}
