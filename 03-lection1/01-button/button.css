@@ -1,1 +1,106 @@
 /* Стилизация кнопки */
+button {
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: var(--white);
+  cursor: pointer;
+}
+.button:disabled  {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
+
+
+.button__primary {
+  background: var(--button-default-primary);
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.button__secondary {
+  background: var(--purple);
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.button__alternate {
+  box-sizing: border-box;
+  border: 1px solid var(--grey-3);
+  color: var(--grey-4);
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button__primary:hover {
+  background: var(--button-hover-primary);
+
+}
+.button__secondary:hover {
+  background: var(--button-hover-secondary);
+}
+.button__alternate:hover {
+  border: 1px solid var(--black);
+}
+
+.button__primary:active {
+  box-shadow: 2px 2px 5px var(--button-default-primary);
+}
+.button__secondary:active {
+  box-shadow: 2px 2px 5px var(--purple);
+}
+.button__alternate:active {
+  box-shadow: 2px 2px 5px var(--grey-3);
+}
+/*
+.button__primary:disabled {
+  background: var(--button-default-primary);
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.button__secondary:disabled {
+  background: var(--purple);
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.button__alternate:disabled {
+  box-sizing: border-box;
+  border: 1px solid var(--grey-3);
+  color: var(--grey-4);
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+*/
+
+
+/*-----------------------------*/
+
+.button-wrapper {
+  display: inline-block;
+  width: 189px;
+  height: 48px;
+/*  border: 1px solid red;*/
+}
+
+.buttons-container__title {
+  display: inline-block;
+  width: 189px;
+  height: 48px;
+  text-align: start;
+  padding: 0px 0px 0px 10px;
+/*  border: 1px solid red;*/
+}
