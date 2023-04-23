@@ -69,23 +69,6 @@ button {
 .button__alternate:active {
   box-shadow: 2px 2px 5px var(--grey-3);
 }
-/*
-.button__primary:disabled {
-  background: var(--button-default-primary);
-  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-.button__secondary:disabled {
-  background: var(--purple);
-  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-.button__alternate:disabled {
-  box-sizing: border-box;
-  border: 1px solid var(--grey-3);
-  color: var(--grey-4);
-  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-*/
-
 
 /*-----------------------------*/
 
