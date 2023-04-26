@@ -1,51 +1,64 @@
 <!DOCTYPE html>
 <!-- Страница с кнопкой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./button.css">
-    </head>
-    <body>
-      <div class="buttons-container">
-        <h2 class="buttons-container__title">
-          DEFAULT
-        </h2>
-        <div class="button-wrapper">
-          <button class="button button__primary">
-            Primary
-          </button>
-        </div>
-        <div class="button-wrapper">
-          <button class="button button__secondary">
-            Secondary
-          </button>
-        </div>
-        <div class="button-wrapper">
-          <button class="button button__alternate">
-            Alternate
-          </button>
-        </div>
-      </div>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <link rel="stylesheet" href="./button.css">
+  </head>
+  <style>
+    .button-wrapper {
+      display: inline-block;
+      margin: 0px 10px 0px 10px;
+    }
 
-      <div class="buttons-container">
-        <h2 class="buttons-container__title">
-          DISABLED
-        </h2>
-        <div class="button-wrapper">
-          <button class="button button__primary" disabled>
-            Primary
-          </button>
-        </div>
-        <div class="button-wrapper">
-          <button class="button button__secondary" disabled>
-            Secondary
-          </button>
-        </div>
-        <div class="button-wrapper">
-          <button class="button button__alternate" disabled>
-            Alternate
-          </button>
-        </div>
+    .buttons-container__title {
+      display: inline-block;
+      width: 189px;
+      height: 48px;
+      text-align: start;
+    }
+  </style>
+  <body>
+    <div class="buttons-container">
+      <h2 class="buttons-container__title">
+        DEFAULT
+      </h2>
+      <div class="button-wrapper">
+        <button class="button button_primary">
+          Primary
+        </button>
       </div>
-    </body>
+      <div class="button-wrapper">
+        <button class="button button_secondary">
+          Secondary
+        </button>
+      </div>
+      <div class="button-wrapper">
+        <button class="button button_alternate">
+          Alternate
+        </button>
+      </div>
+      </div>
+        <div class="buttons-container">
+      <h2 class="buttons-container__title">
+        DISABLED
+      </h2>
+      <div class="button-wrapper">
+        <button class="button button_primary" disabled>
+          Primary
+        </button>
+      </div>
+      <div class="button-wrapper">
+        <button class="button button_secondary" disabled>
+        Secondary
+        </button>
+      </div>
+      <div class="button-wrapper">
+        <button class="button button_alternate" disabled>
+          Alternate
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
