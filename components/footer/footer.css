@@ -1,6 +1,9 @@
 .footer {
-  grid-area: footer;
   background: var(--grey-5);
+}
+
+.footer_area {
+  grid-area: footer;
 }
 
 .footer__title {
