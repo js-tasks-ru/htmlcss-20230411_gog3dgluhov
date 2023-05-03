@@ -1,0 +1,16 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid var(--grey-2);
+  border-bottom: 1px solid var(--grey-2);
+}
+
+.cards__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1110px;
+  padding: 68px 0px 204px 0px;
+}
