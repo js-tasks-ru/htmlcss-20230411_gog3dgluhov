@@ -12,17 +12,7 @@
   border-radius: 8px;
   padding: 16px 24px 24px 24px;
 }
-/**/
-.histogram__block {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
 
-/**/
-
-/*.histogram-header {*/
 .histogram__header {
   display: flex;
   justify-content: space-between;
@@ -30,7 +20,6 @@
 
 }
 
-/*.histogram-header__titles {*/
 .histogram__titles {
   display: flex;
   flex-direction: column;
@@ -38,40 +27,33 @@
 
 }
 
-/*.histogram-header__titles_title {*/
 .histogram__title {
 }
 
-/*.histogram-header__titles_subtitle {*/
 .histogram__subtitle {
   font-size: 20px;
   line-height: 26px;
 }
 
-/*.histogram-header__links {*/
 .histogram__links {
   display: flex;
   flex-direction: column;
 
 }
 
-/*.histogram__header__links_link {*/
 .histogram__link {
   color: var(--button-default-primary);
   padding: 3px 0px 0px 0px;
 }
 
-/*.histogram-group {*/
 .histogram__chart {
   height: 50px;
   display: flex;
   align-items: flex-end;
   gap: 1px;
-/*  padding: 39px 0px 0px 0px;*/
   margin-top: 39px;
 }
 
-/*.histogram-group_item { */
 .histogram__chart-column {
   background: var(--button-default-primary);
   flex-grow: 1;
