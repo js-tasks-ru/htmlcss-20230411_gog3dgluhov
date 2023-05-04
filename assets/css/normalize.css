@@ -367,4 +367,14 @@ button {
   line-height: inherit;
   padding: 0;
 }
+<<<<<<< HEAD
  
+=======
+
+ul, ol {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+>>>>>>> master
