@@ -2,10 +2,6 @@
   background: var(--grey-5);
 }
 
-.footer_area {
-  grid-area: footer;
-}
-
 .footer__title {
   /* h5 */
   font-family: 'Inter';

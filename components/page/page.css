@@ -9,3 +9,22 @@
 
   background: var(--grey-5);
 }
+
+.page__header {
+  grid-area: header;
+}
+
+.page__menu {
+  grid-area: sidemenu;
+  justify-self: end;
+}
+
+.page__main {
+  grid-area: main;
+}
+
+
+.page__footer {
+  grid-area: footer;
+}
+

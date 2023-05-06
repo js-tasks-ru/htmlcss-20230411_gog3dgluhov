@@ -1,18 +1,13 @@
 .menu {
-  background: var(--grey-5);
-  justify-self: end;
-}
 
-.menu_area {
-  grid-area: sidemenu;
 }
 
 .menu__container {
+  background: var(--grey-5);
   max-width: 229px;
   padding: 0px 56px 0px 0px;
-
-
 }
+
 .menu__title {
   font-family: 'Inter';
   font-style: normal;
@@ -20,23 +15,17 @@
   font-size: 20px;
   line-height: 26px;
 
-  /* identical to box height, or 130% */
-
   color: var(--black);
   padding: 0px 0px 16px 0px;
 }
 
 .menu__list {
-  /* small */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
 
-  /* identical to box height, or 157% */
-
-  /* Black */
   color: var(--black);
 }
 

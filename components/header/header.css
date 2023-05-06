@@ -2,11 +2,6 @@
   background-color: var(--white);
 }
 
-.header_area {
-  grid-area: header;
-}
-
-
 .header__title {
   height: 82px;
 }
