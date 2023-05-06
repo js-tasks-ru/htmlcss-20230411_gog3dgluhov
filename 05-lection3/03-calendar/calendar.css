@@ -2,8 +2,7 @@
   background: var(--white);
   border: 1px solid var(--grey-3);
   border-radius: 8px;
-  padding: 28px 36px;
-/*  max-width: 300px;*/
+  padding: 28px 26px 32px;
 }
 
 .calendar__title {
@@ -16,7 +15,7 @@
   line-height: 24px;
 
   color: var(--calendar-number);
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .calendar__wrapper {
