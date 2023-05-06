@@ -1,38 +1,10 @@
 .modal {
-<<<<<<< HEAD
-  position: absolute;
   display: none;
-}
-
-.modal__background { 
-=======
-  display: none;
->>>>>>> master
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-<<<<<<< HEAD
-  width: 100vw;
-  height: 100vh;
-  background: #C4C4C4;
-  opacity: 0.5;
-  z-index: -1;
-}
-
-.modal__wrapper {
-  position: fixed;
-  right; 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 200;
-
-}
-
-.modal__window {
-  positon: relative;
-=======
 
   background: rgba(196, 196, 196, 1);
 }
@@ -43,7 +15,6 @@
   top: 50%;
   transform: translate(-50%, -50%);
 
->>>>>>> master
   max-width: 498px;
   display: flex;
   flex-direction: column;
