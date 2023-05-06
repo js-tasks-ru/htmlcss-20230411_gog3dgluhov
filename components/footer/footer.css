@@ -11,9 +11,8 @@
   font-weight: 500;
   font-size: 38px;
   line-height: 48px;
-
+  padding-top: 5px; 
   color: var(--black);
-  padding: 72px 0px 0px 0px;
 }
 
 .footer__description {
@@ -22,13 +21,10 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  /* or 150% */
   text-align: center;
 
-  /* Black */
   color: var(--black);
   max-width: 640px;
-
+  margin: 0 auto;
 }
 
