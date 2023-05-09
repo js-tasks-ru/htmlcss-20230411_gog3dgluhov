@@ -1,0 +1,30 @@
+.card {
+  display: inline-block;
+  background: var(--white);
+  box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+  border-radius: 8px;
+  width: 164px;
+  border: 1px solid green;
+}
+
+.card__component {
+
+  height: 164px;
+}
+
+.card__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: var(--black);
+
+  padding: 12px 0px;
+  border-top: 1px solid var(--grey-2);
+
+
+}
