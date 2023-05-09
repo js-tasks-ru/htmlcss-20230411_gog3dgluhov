@@ -1,23 +1,28 @@
 .header {
   display: grid;
   grid-template-rows: auto 49px auto 69px;
-  grid-template-columns: 1fr;
+  grid-template-areas: "logo"
+                        "."
+                        "title"
+                        "."
+                        ;
 }
 
 .header__title {
-  /* h3 */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
   line-height: 38px;
-
-  /* Gray 4 */
   color: var(--grey-4);
-
-
 }
 
-.logo {
+.header__area_logo {
+  grid-area: logo;
+  align-self: center;
+  justify-self: center;
+}
 
+.header__area_title {
+  grid-area: title;
 }
