@@ -1,0 +1,28 @@
+.footer {
+
+}
+
+.footer__title {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: var(--black);
+}
+
+.footer__description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+
+  text-align: center;
+
+  color: var(--grey-3);
+}
