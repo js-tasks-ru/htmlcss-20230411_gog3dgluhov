@@ -1,0 +1,21 @@
+.footer {
+  background: var(--grey-5);
+}
+
+.footer__title {
+  /* h5 */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+
+  /* identical to box height, or 150% */
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+
+  /* Gray 3 */
+  color: var(--grey-3);
+  padding: 92px 0px 56px 0px;
+}
