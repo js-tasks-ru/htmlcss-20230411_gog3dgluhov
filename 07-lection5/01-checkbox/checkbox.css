@@ -4,6 +4,7 @@
   justify-contetnt: center;
   align-items: center;
   cursor: pointer;
+  position: relative;
 }
 
 .checkbox__input {
