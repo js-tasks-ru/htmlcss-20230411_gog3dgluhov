@@ -4,6 +4,7 @@
   justify-contetnt: center;
   align-items: center;
   cursor: pointer;
+  position: relative;
 }
 
 .toggler__input {
@@ -17,7 +18,7 @@
 }
 
 .toggler__control {
-  height: 27px;
+  height: 28px;
   width: 52px;
   background: var(--white);
   border: 1px solid var(--grey-2);
